@@ -1,0 +1,6 @@
+<%= javascript_pack_tag 'posts_index' %>
+
+<% content_for :title do %><%= I18n.t("posts.title.posts") + " | " + I18n.t("developer.ekansh") %><% end %>
+
+<%= content_tag :div, id: "postsDashboard", data: @posts.to_json do %>
+<% end %>
