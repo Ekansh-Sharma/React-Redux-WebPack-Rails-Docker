@@ -4,7 +4,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import IndexComponent from '../components/posts/index'
+import IndexComponent from '../components/posts/app'
 
 document.addEventListener('DOMContentLoaded', () => {
   const node = document.getElementById('postsDashboard');

@@ -1,13 +1,14 @@
 import React from 'react';
 
-class IndexComponent extends React.Component {
-  constructor(props){
-    super(props);
-  }
-
-  render(){
-    return <div>Ekansh</div> 
-  }
+const IndexComponent = () => {
+  return (
+    <div>
+      <div>First</div>
+      <hr />
+      <div>Last</div>
+      <hr />
+    </div>
+  )
 }
 
 export default IndexComponent;
